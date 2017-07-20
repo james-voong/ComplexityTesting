@@ -1,0 +1,37 @@
+Bubble Sort
+	Number of compares is not important, as it will always be n^2
+	Number of changes is important, because depending on data structure (e.g. reversed, nearly sorted etc.), then this will change
+	Goes through the list and swaps adjacent elements until it goes through one scan without swapping anything, at which point it breaks out
+	Terrible at reverse sorting as it must go through array length time.
+	
+	
+Insertion Sort
+	Bad at reverse but good at nearly sorted
+	Adaptive when data is nearly sorted ie. doesn't iterate through already sorted parts
+	Worse case is n^2
+	
+MergeSort
+	Only stable O n log n
+	When sorting linkedLists: requires O log n extra space (for recursion)
+	O n extra space for arrays
+	Not adaptive
+	Algorithm of choice when:
+		Stability required
+		sorting linked lists
+		random access is more expensive than sequential access
+	
+	
+QuickSort
+	Takes a pivot, compares the pivot with all remaining values and places them into 2 groups, treating them like separate arrays:
+		Array of values larger than pivot
+		Array of values smaller than pivot
+	Upon finishing the first iteration, it places the pivot between these groups, it is now in the correct place and never checks it again
+	Next iteration starts from the first index and repeats above steps, skipping indices that have ever been a pivot.
+	
+SelectionSort
+	Number of compares is n^2, run time is always quadratic
+	Number of changes is minimized (n), useful in applications where the cost of swapping is high
+	Not adaptive
+		Reversed Order:
+			Changes = O(n)
+			Comparisons = n^2

@@ -1,0 +1,47 @@
+Nearly Sorted:
+	MergeSort		0.003s
+	QuickSort		0.009s
+	BubbleSort		0.010s
+	InsertionSort	0.771s
+	SelectionSort	1.623s
+	
+	
+Using MergeSort:
+	Length:		Comparisons:	Changes:	Comparisons/datapoint:		Changes/datapoint:
+	50			159				15			3.180000					0.300000
+	500			2349			143			4.698000					0.286000
+	5000		32789			1429		6.557800					0.285800
+	50000		408968			14063		8.179360					0.281260
+
+
+Using SelectionSort:
+	Length:		Comparisons:	Changes:	Comparisons/datapoint:		Changes/datapoint:
+	50			1225			12			24.500000					0.240000
+	500			124750			79			249.500000					0.158000
+	5000		12497500		798			2499.500000					0.159600
+	50000		1249975000		8029		24999.500000				0.160580
+
+
+Using BubbleSort:
+	Length:		Comparisons:	Changes:	Comparisons/datapoint:		Changes/datapoint:
+	50			245				48			4.900000					0.960000
+	500			2994			380			5.988000					0.760000
+	5000		49990			4186		9.998000					0.837200
+	50000		699986			41166		13.999720					0.823320
+
+
+Using InsertionSort:
+	Length:		Comparisons:	Changes:	Comparisons/datapoint:		Changes/datapoint:
+	50			1225			48			24.500000					0.960000
+	500			124750			380			249.500000					0.760000
+	5000		12497500		4186		2499.500000					0.837200
+	50000		1249975000		41166		24999.500000				0.823320
+
+
+Using QuickSort:
+	Length:		Comparisons:	Changes:	Comparisons/datapoint:		Changes/datapoint:
+	50			230				12			4.600000					0.240000
+	500			3817			92			7.634000					0.184000
+	5000		55135			938			11.027000					0.187600
+	50000		718935			9570		14.378700					0.191400
+

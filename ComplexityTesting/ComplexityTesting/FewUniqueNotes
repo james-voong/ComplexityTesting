@@ -1,0 +1,51 @@
+Few Unique:
+	// I'm aware that time is not a good indicator but this is just to give a rough idea of relative efficiencies
+	// Placed in order of fastest to slowest
+	QuickSort		0.021s
+	MergeSort 		0.076s
+	InsertionSort	1.634s
+	SelectionSort 	2.372s
+	BubbleSort		8.031s
+	
+	
+Using MergeSort:
+	Length:		Comparisons:	Changes:	Comparisons/datapoint:		Changes/datapoint:
+	50			215				99			4.300000					1.980000
+	500			3774			1760		7.548000					3.520000
+	5000		53621			24776		10.724200					4.955200
+	50000		693745			322825		13.874900					6.456500
+	
+	
+Using SelectionSort:
+	Length:		Comparisons:	Changes:	Comparisons/datapoint:		Changes/datapoint:
+	50			1225			95			24.500000					1.900000
+	500			124750			921			249.500000					1.842000
+	5000		12497500		9286		2499.500000					1.857200
+	50000		1249975000		93186		24999.500000				1.863720
+
+
+Using BubbleSort:
+	Length:		Comparisons:	Changes:	Comparisons/datapoint:		Changes/datapoint:
+	50			2156			1160		43.119999					23.200001
+	500			216566			112500		433.131989					225.000000
+	5000		22500499		10593830	4500.100098					2118.766113
+	50000		2249305013		1076368672	44986.101563				21527.373047
+
+
+Using InsertionSort:
+	Length:		Comparisons:	Changes:	Comparisons/datapoint:		Changes/datapoint:
+	50			1225			1160		24.500000					23.200001
+	500			124750			112500		249.500000					225.000000
+	5000		12497500		10593830	2499.500000					2118.766113
+	50000		1249975000		1076368672	24999.500000				21527.373047
+
+
+Using QuickSort:
+	Length:		Comparisons:	Changes:	Comparisons/datapoint:		Changes/datapoint:
+	50			199				162			3.980000					3.240000
+	500			3069			3144		6.138000					6.288000
+	5000		39290			47266		7.858000					9.453200
+	50000		444427			627514		8.888540					12.550280
+	
+	
+	
